@@ -59,22 +59,26 @@ Movies are recommended based on textual similarity of descriptions.
 ```bash
 git clone https://github.com/omnavle/movie-recommendation-system.git
 cd movie-recommendation-system
+```
 
 ### 2️⃣ Create Virtual Environment
 
+```bash
 python -m venv .venv\
 .venv`\Scripts`{=tex}`\activate  `{=tex}
+```
 
 ### 3️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Configure Environment Variables
 
 Create a `.env` file in the root directory:
-
+```bash
 TMDB_API_KEY=your_tmdb_api_key_here
-
+```
 Get your API key from:\
 https://www.themoviedb.org/settings/api
 
@@ -83,16 +87,17 @@ https://www.themoviedb.org/settings/api
 ## ▶️ Run Application
 
 ### Start Backend
-
+```bash
 uvicorn main:app --reload
-
+```
 Backend runs at:\
+```bash
 http://127.0.0.1:8000
-
+```
 ### Start Frontend
-
+```bash
 streamlit run app.py
-
+```
 ------------------------------------------------------------------------
 
 ## 📡 API Endpoints
