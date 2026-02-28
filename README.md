@@ -52,9 +52,12 @@ Movies are recommended based on textual similarity of descriptions.
 
 ## ⚙️ Installation Guide
 
+## ⚙️ Installation Guide
+
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/omnavle/movie-recommendation-system.git\
+```bash
+git clone https://github.com/omnavle/movie-recommendation-system.git
 cd movie-recommendation-system
 
 ### 2️⃣ Create Virtual Environment
