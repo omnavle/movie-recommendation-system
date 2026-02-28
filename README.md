@@ -52,8 +52,6 @@ Movies are recommended based on textual similarity of descriptions.
 
 ## ⚙️ Installation Guide
 
-## ⚙️ Installation Guide
-
 ### 1️⃣ Clone Repository
 
 ```bash
